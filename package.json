@@ -4,6 +4,9 @@
     "version": "0.0.1",
     "dependencies": {},
     "node-red": {
-        "settings": {}
+        "settings": {
+            "flowFile": "harvest-flows/crossref-flow.json",
+            "credentialsFile": "harvest-flows/crossref-flow_cred.json"
+        }
     }
 }
