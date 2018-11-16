@@ -2,7 +2,10 @@
     "name": "share-red-flows",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-wait-paths": "^0.2.12",
+        "node-red-contrib-splitter": "0.0.16"
+    },
     "node-red": {
         "settings": {
             "flowFile": "harvest-flows/crossref-flow.json",
