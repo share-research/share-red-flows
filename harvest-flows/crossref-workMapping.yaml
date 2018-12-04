@@ -1,0 +1,8 @@
+url: https://api.crossref.org/v1/works
+shareMapping :
+    "creator" : "author"	     
+    "givenName" : "author.given"
+    "familyName" : "author.family"
+    "title" : "title"
+    "isPartOf.work.title" : "containerTitle"
+    "resourceIdentfier" : "DOI"
