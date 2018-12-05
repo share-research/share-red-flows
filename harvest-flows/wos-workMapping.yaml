@@ -1,0 +1,5 @@
+shareMapping :
+    "creator" : "Authors"	     
+    "title" : "Article title"
+    "isPartOf.work.title" : " Source title"
+    "resourceIdentifier" : "DOI"
